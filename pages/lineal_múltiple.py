@@ -7,6 +7,9 @@ model = load("model.joblib")
 with st.sidebar:
     st.header("Estimación de precios de automóvil")
     st.caption("Sesión virtual 15/04/2023 - GDG Sucre")
+    st.write(
+        "[Código en Github](https://github.com/pablonoya/estimacion-precios-automoviles/)"
+    )
 
 st.subheader("Regresión lineal simple")
 col1, col2 = st.columns(2, gap="medium")
